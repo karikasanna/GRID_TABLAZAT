@@ -8,3 +8,11 @@ table{
 th, tr, td {
     border: 1px solid black;
 }
+
+tr:nth-child(even) {
+    background-color: lightpink;
+}
+
+tr:nth-child(odd) {
+    background-color: lightblue;
+}
