@@ -1,0 +1,32 @@
+body{
+    height: 200vh;
+}
+
+.sticky {
+    background-color: lightblue;
+    width: 50px;
+    height: 50px;
+    position: sticky; /* a böngészőhöz képest */
+    top: 50px;
+}
+
+
+.parent {
+    width: 300px;
+    height: 300px;
+    background-color: lightgreen;
+    margin: auto;
+    margin-block: 3rem;
+    position: relative; /* a szülőelemhez, jelen esetben a bodyhoz képest */
+
+}
+
+.child {
+    width: 50px;
+    height: 50px;
+    background-color: lightgrey;
+    border: 1px solid green;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+}
