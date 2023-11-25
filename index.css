@@ -23,7 +23,7 @@
     height:100vh;
     display: grid;
     grid-template-areas: 
-    'h h'
-    'm a'
-    'f f';
+    'h h h'
+    'm m a'
+    'f f f';
 }
